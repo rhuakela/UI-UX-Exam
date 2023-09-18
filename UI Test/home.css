@@ -1,0 +1,49 @@
+.navi-bar{
+    overflow: hidden;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+
+    
+}
+
+.navi-bar a{
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    display: inline-block;
+}
+
+body{
+    background: #002367;
+}
+
+.navi-bar a.home{
+    color: lightgreen;
+    background-color: white;
+}
+
+.bmw2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.parts{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.text{
+    text-align: center;
+}

@@ -1,0 +1,84 @@
+.background{
+    background-color: blue;
+    margin-right: 1200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 500px;
+    width: 315px;
+    margin-top: auto;
+    position: absolute;
+
+}
+
+body, html{
+    height: 600px;
+}
+
+.bmw{
+    background-image: url(images/bmw.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+
+.form{
+    padding-top: 20px;
+}
+
+input{
+    display: block;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    margin-left: 120px;
+    font-size: 30px;
+}
+
+.forgotpw{
+    margin-left: 120px;
+    color: white;
+}
+
+.login-bttn{
+    color:white;
+    color: black;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 85px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.register{
+    margin-left: 45px;
+    margin-top: 30px;
+
+}
+
+.reg-link{
+    color: white;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+.login-bttn:hover{
+    opacity: 5;
+    background-color: greenyellow;
+}
